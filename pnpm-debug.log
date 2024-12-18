@@ -1,0 +1,50 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "nodejs-complete-guide"
+      version: "1.0.0"
+      description: "Complete Node.js Guide"
+      main: "app.js"
+      scripts: 
+        test: "echo \"Error: no test specified\" && exit 1"
+        start: "nodemon app.js"
+        start-server: "node app.js"
+      author: 
+        name: "Maximilian Schwarzmüller"
+      license: "ISC"
+      devDependencies: 
+        nodemon: "^1.18.3"
+      dependencies: 
+        bcryptjs: "^2.4.3"
+        body-parser: "^1.18.3"
+        connect-flash: "^0.1.1"
+        connect-mongodb-session: "^2.0.3"
+        csurf: "^1.9.0"
+        dotenv: "^16.4.7"
+        ejs: "^2.6.1"
+        express: "^4.16.3"
+        express-handlebars: "^3.0.0"
+        express-session: "^1.15.6"
+        express-validator: "^5.3.0"
+        mongodb: "^3.1.6"
+        mongoose: "^8.8.4"
+        multer: "^1.4.0"
+        mysql2: "^1.6.1"
+        nodemailer: "^4.6.8"
+        nodemailer-sendgrid-transport: "^0.2.0"
+        pdfkit: "^0.8.3"
+        pug: "^2.0.3"
+        sequelize: "^5.0.0-beta.11"
+        stripe: "^7.11.0"
+      engines: 
+        node: "16.x"
+      gitHead: "bdf3e5d62da7553367bb6c6331100dcf1d6a76e4"
+      readme: "ERROR: No README data found!"
+      _id: "nodejs-complete-guide@1.0.0"
+    prefix: "/app"
