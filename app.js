@@ -13,7 +13,7 @@ const errorController = require('./controllers/error');
 const User = require('./models/user');
 
 const MONGODB_URI =
-  'mongodb+srv://ripudamanreddy:Ragnarok2017@cluster0.mve9t.mongodb.net/sample_mflix';
+  'mongodb+srv://ripudamanreddy:<password>@cluster0.mve9t.mongodb.net/sample_mflix';
 
 const app = express();
 const store = new MongoDBStore({
